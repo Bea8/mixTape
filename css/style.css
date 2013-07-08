@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana, sans;
+    background-color: #272822;
+    color: white;
+}
+
+#wrapper {
+    width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+#main {
+    text-align: center;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: #5F8C99;
+    color: white;
+    font-family: 'Voltaire', sans-serif;
+    font-size: .8em;
+    letter-spacing: .1em;
+    border-style: none;
+    margin-bottom: 10px;
+
+    -webkit-transition-property: background, color;
+    -moz-transition-property: background, color;
+    -o-transition-property: background, color;
+    -ms-transition-property: background, color;
+    transition-property: background, color;
+
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -ms-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+button:hover {
+    background: #B4D3DB;
+    color: #277287;
+    cursor: pointer;
+}
+
+.koko {
+    display: block;
+    background-color: gray;
+    padding: 10px 20px;
+}
